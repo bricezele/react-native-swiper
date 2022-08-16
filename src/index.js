@@ -870,7 +870,7 @@ export default class extends Component {
           (renderPagination
             ? renderPagination(index, total, this)
             : this.renderPagination())}
-        {this.renderTitle()}
+        {/*this.renderTitle()*/}
         {showsButtons && this.renderButtons()}
       </View>
     )
